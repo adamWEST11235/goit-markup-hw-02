@@ -1,0 +1,98 @@
+/* deklaracja zmiennych */
+:root {
+	--brand-color: #e5e5e5;
+	--secondary-color: #2f303a;
+	--header-color: #ffffff;
+}
+/* style ogołne */
+body {
+	background-color: var(--brand-color);
+	font-family: "Roboto", sans-serif;
+}
+header {
+	background-color: var(--header-color);
+}
+a {
+	text-decoration: none;
+}
+
+/* style dla header */
+.header__logo {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: black;
+}
+.header__logo--span {
+	color: #2196f3;
+}
+.header__link {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: black;
+}
+.header__link:focus {
+	color: #2196f3;
+}
+.header_contact--mail {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #2196f3;
+}
+.header__contact--phone {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+
+/* style dla sekcji z efektywnymi rozwiazaniami*/
+
+.section__effective_solutions {
+	background: #2f303a;
+}
+.section__effective_solutions--heading{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	/* or 136% */
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	
+	color: #FFFFFF;
+	
+}
+.section__effective_solutions--button{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	/* identical to box height, or 188% */
+	
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	color: #FFFFFF;
+}
+
+/* style dla sekcji z loremipsum */
