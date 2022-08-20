@@ -205,6 +205,7 @@ body {
 	color: var(--secoundary-text-color);
 	background: var(--third-button-color);
 	border-width: 0px;
+	cursor: pointer;
 }
 .portfolio__section--button:hover {
 	background: var(--hover-butto-color);
