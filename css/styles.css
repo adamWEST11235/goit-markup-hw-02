@@ -7,8 +7,6 @@
 	--text-color: #ffffff;
 	--secoundary-text-color: #212121;
 	--third-text-color: #757575;
-
-
 }
 
 body {
@@ -53,7 +51,7 @@ body {
 	font-size: 14px;
 	line-height: 1.15;
 	letter-spacing: 0.02em;
-	color: var(--third-text-color)
+	color: var(--third-text-color);
 }
 .header__contact--mail:hover,
 .header__contact--phone:hover {
@@ -124,7 +122,7 @@ body {
 	color: var(--secoundary-text-color);
 }
 .section__team {
-	background-color: #F5F4FA;
+	background-color: #f5f4fa;
 }
 .section__team--heading {
 	font-weight: 700;
