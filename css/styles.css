@@ -54,10 +54,10 @@ body {
 	font-size: 14px;
 	line-height: 115%;
 	letter-spacing: 0.02em;
-	color: var(--h-c-lbla);
+	color: var(--secoundary-text-color);
 }
 .header__nav--link:hover {
-	color: var(--hover-color);
+	color: var(--link-color-hover);
 }
 .header__contact--mail,
 .header__contact--phone {
